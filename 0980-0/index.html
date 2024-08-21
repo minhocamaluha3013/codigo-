@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja</h1>
+        <button id="menuButton">Menu</button>
+        <div id="menu">
+            <ul>
+                <li><a href="#" data-target="tecnologia">Tecnologia</a></li>
+                <li><a href="#" data-target="moda">Moda</a></li>
+                <li><a href="#" data-target="elegancia">Elegância</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="tecnologia" class="tab-content">
+            <h2>Tecnologia de Ponta</h2>
+            <div class="item">
+                <h3>Smartphone Ultra X12</h3>
+                <img src="imagens/smartphone.jpg" alt="Smartphone Ultra X12">
+                <p>Descrição do Smartphone Ultra X12: tecnologia de ponta, câmera de alta resolução.</p>
+            </div>
+            <div class="item">
+                <h3>Fone de Ouvido SoundMax Pro</h3>
+                <img src="imagens/fone.jpg" alt="Fone de Ouvido SoundMax Pro">
+                <p>Descrição do Fone de Ouvido SoundMax Pro: som de qualidade, design confortável.</p>
+            </div>
+        </section>
+
+        <section id="moda" class="tab-content" style="display: none;">
+            <h2>Moda Casual</h2>
+            <div class="item">
+                <h3>Camiseta Essentials</h3>
+                <img src="imagens/camiseta.jpg" alt="Camiseta Essentials">
+                <p>Descrição da Camiseta Essentials: conforto e estilo para o dia a dia.</p>
+            </div>
+            <div class="item">
+                <h3>Calça Jeans ComfortFit</h3>
+                <img src="imagens/calca.jpg" alt="Calça Jeans ComfortFit">
+                <p>Descrição da Calça Jeans ComfortFit: ajuste perfeito e conforto incomparável.</p>
+            </div>
+        </section>
+
+        <section id="elegancia" class="tab-content" style="display: none;">
+            <h2>Estilo e Elegância</h2>
+            <div class="item">
+                <h3>Relógio Clássico Prestige</h3>
+                <img src="imagens/relogio.jpg" alt="Relógio Clássico Prestige">
+                <p>Descrição do Relógio Clássico Prestige: elegância atemporal e precisão.</p>
+            </div>
+            <div class="item">
+                <h3>Óculos de Sol Vogue</h3>
+                <img src="imagens/oculos.jpg" alt="Óculos de Sol Vogue">
+                <p>Descrição dos Óculos de Sol Vogue: proteção e estilo para qualquer ocasião.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Loja</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
